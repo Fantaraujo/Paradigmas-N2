@@ -1,0 +1,115 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #eaf2ff, #f7f9fc);
+    -fx-font-family: "Segoe UI";
+}
+
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 18;
+    -fx-border-radius: 18;
+    -fx-border-color: #e2e8f0;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(gaussian, rgba(15, 23, 42, 0.15), 22, 0.18, 0, 8);
+}
+
+.title {
+    -fx-text-fill: #172033;
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+}
+
+.subtitle {
+    -fx-text-fill: #64748b;
+    -fx-font-size: 14px;
+}
+
+.field-label {
+    -fx-text-fill: #334155;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.input {
+    -fx-background-color: #f8fafc;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 9;
+    -fx-background-radius: 9;
+    -fx-padding: 0 13 0 13;
+    -fx-font-size: 14px;
+}
+
+.input:focused {
+    -fx-background-color: white;
+    -fx-border-color: #4f7cff;
+    -fx-border-width: 2;
+}
+
+.input .prompt-text {
+    -fx-fill: #94a3b8;
+}
+
+.button {
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 9;
+    -fx-border-radius: 9;
+}
+
+.primary-button {
+    -fx-background-color: #4f7cff;
+    -fx-text-fill: white;
+}
+
+.primary-button:hover {
+    -fx-background-color: #3f6ce6;
+}
+
+.primary-button:disabled {
+    -fx-background-color: #cbd5e1;
+    -fx-text-fill: #64748b;
+    -fx-opacity: 1;
+}
+
+.secondary-button {
+    -fx-background-color: #eef2f7;
+    -fx-text-fill: #334155;
+    -fx-border-color: #d5dce6;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #e2e8f0;
+}
+
+.menu-button {
+    -fx-background-color: #f8fafc;
+    -fx-text-fill: #1e293b;
+    -fx-border-color: #dbe3ee;
+    -fx-border-width: 1;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 0 18 0 18;
+}
+
+.menu-button:hover {
+    -fx-background-color: #edf3ff;
+    -fx-border-color: #9db7ff;
+    -fx-text-fill: #315fd4;
+}
+
+.danger-button {
+    -fx-background-color: #fff1f2;
+    -fx-text-fill: #be123c;
+    -fx-border-color: #fecdd3;
+    -fx-border-width: 1;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 0 18 0 18;
+}
+
+.danger-button:hover {
+    -fx-background-color: #ffe4e6;
+}
+
+.footer {
+    -fx-text-fill: #94a3b8;
+    -fx-font-size: 12px;
+}
